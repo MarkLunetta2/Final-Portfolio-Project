@@ -1,0 +1,103 @@
+/*This file is for styling the index.html file*/
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: 'Trebuchet MS';
+    color: black;
+    background-color: #54ffa7;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+#Mark{
+    width: 200px;
+
+    /*You need to have a border-width and border-style before using border-image.*/
+    border-width: 7px;
+    border-style: solid;
+    border-color: rgb(135, 39, 224);
+    filter: grayscale(100%);
+}
+
+.Skills {
+    display: flex;
+    border-radius: 10px
+}
+
+.Skills > div {
+    /*makes area wider/narrower when it has more space/less space*/
+    flex: 1;
+    border-radius: 10px
+}
+
+.About_Me{
+    padding-top: 100px;
+    font-family: 'Trebuchet MS';
+    background-color: black;
+    text-align: center;
+}
+
+.Skill_1{
+    line-height: 55px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+    background-color: #54acff;
+    text-align: center
+}
+
+.Skill_2{
+    font-family: 'Trebuchet MS';
+    background-color: #7f54ff;
+    text-align: center
+}
+
+.Skill_3{
+    line-height: 55px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+    background-color: #54ffa7;
+    text-align: center
+}
+
+.Skill_4{
+    line-height: 40px;
+    font-family: 'Trebuchet MS';
+    background-color: #ffd153;
+    text-align: center
+}
+
+.Skill_5{
+    font-family: 'Trebuchet MS';
+    background-color: #ff7b53;
+    text-align: center
+}
+
+h2{
+    font-family: 'Trebuchet MS';
+    background-color: black;
+    padding-left: 50px;
+    font-size: 80px;
+}
+
+#iphone{
+    padding-top: 10px;
+    width: 25px;
+}
+
+#envelope{
+    padding-top: 20px;
+    width: 45px;
+}
+
+#github{
+    padding-top: 20px;
+    width: 50px;
+}
+
+#arrow{
+    filter: brightness(0.1);
+    padding-left: 45px;
+}
