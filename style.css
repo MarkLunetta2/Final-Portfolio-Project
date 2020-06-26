@@ -77,6 +77,12 @@ h1{
 
 h2{
     font-family: 'Trebuchet MS';
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+h3{
+    font-family: 'Trebuchet MS';
     background-color: black;
     padding-left: 50px;
     font-size: 80px;
@@ -92,7 +98,7 @@ h2{
     width: 45px;
 }
 
-#github{
+#github_Mark{
     padding-top: 20px;
     width: 50px;
 }
