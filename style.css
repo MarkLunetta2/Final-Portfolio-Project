@@ -24,13 +24,13 @@ h1{
 
 .Skills {
     display: flex;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .Skills > div {
     /*makes area wider/narrower when it has more space/less space*/
     flex: 1;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .About_Me{
